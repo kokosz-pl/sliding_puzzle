@@ -135,7 +135,7 @@ void rysowanie_tablicy(int tab[][n])
 		cout << "======";
 	}
 	cout << '\n';
-	cout << "Znak: ";
+	cout << "Key: ";
 
 }
 void gora()
@@ -221,6 +221,6 @@ void zakonczenie(int tab[][n])
 			}
 		}
 	}
-	cout << '\n' << "KONIEC GRY" << '\n';
+	cout << '\n' << "END OF GAME" << '\n';
 	exit(0);
 }
